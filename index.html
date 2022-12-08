@@ -6,47 +6,65 @@
         <meta charset="UTF-8">
         <title>Voter Registration</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="header-image" type="image/png" href="../voter_registration_website/images/dapnewl.png">
     </head>
     <body>
-        <header> <img src="dapnewl.png"></header>
+        
 <header><strong><h1>Voter Registration Form</h1></strong></header>
 <main>
     <form>
-        <div>
+        <div class="personal_info">
             <label for="official_name">Name</label>
             <input type="text" id="official_name" name="official_name">
-        </div>
-        <br>
-        <div>
+            <br>
+            <br>
             <label for="id_number">ID Number</label>
             <input type="number" id="id_number" name="id_number">
+            <br>
+            <br>
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age">
+            <br>
+            <br>
+            <label for="gender">Gender:</label>
+            <br>
+            <label>Male</label>
+            <input type="radio">
+            <label>Female</label>
+            <input type="radio">
         </div>
         <br>
-        <div>
+        <div class="area_info">
             <label for="county_name">County Name</label>
-            <input type="text" id="county_name" name="county_name">
-        </div>
-        <br>
-        <div>
-            <label for="constituency">Constituency Name</label>
-            <input type="text" id="constituency" name="constituency">
-
-        </div>
-        <br>
-        <div>
+            <input type="text" id="countyname" name="county_name"> 
+            <br>
+            <br>
+            <label for="constituency_name">Constituency Name</label>
+            <input type="text" id="conatituency_name" name="constituency_name">
+            <br>
+            <br>
             <label for="ward_name">Ward Name</label>
             <input type="text" id="ward_name" name="ward_name">
+
         </div>
-        <br>
         <div>
             <label>
                 <input type="checkbox" id="agree" name="agree" required>
                 I agree to the policies of the party
             </label>
         </div>
-        <br>
+        <div><br>
         <button type="submit">Register</button>
+        </div>
+        <br>
+        
     </form>
 </main>
     </body>
+    <footer> 
+        <p>Dap-k
+            <br>
+            Mwamko Mpya
+        </p>
+    </footer>
 </html>
